@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07F695AC3F99FD6E7D357EC4 /* Pods_practical6_qrcode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C27C8E169CD581D6922B5156 /* Pods_practical6_qrcode.framework */; };
 		BF2D7286238D1C3C002C4F95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D7285238D1C3C002C4F95 /* AppDelegate.swift */; };
 		BF2D7288238D1C3C002C4F95 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D7287238D1C3C002C4F95 /* SceneDelegate.swift */; };
 		BF2D728A238D1C3C002C4F95 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D7289238D1C3C002C4F95 /* FirstViewController.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FCBCE1403F1F3B35BF25B9C /* Pods-practical6_qrcode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practical6_qrcode.release.xcconfig"; path = "Target Support Files/Pods-practical6_qrcode/Pods-practical6_qrcode.release.xcconfig"; sourceTree = "<group>"; };
+		88C551ED2AD1BD58DA742145 /* Pods-practical6_qrcode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-practical6_qrcode.debug.xcconfig"; path = "Target Support Files/Pods-practical6_qrcode/Pods-practical6_qrcode.debug.xcconfig"; sourceTree = "<group>"; };
 		BF2D7282238D1C3C002C4F95 /* practical6_qrcode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = practical6_qrcode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF2D7285238D1C3C002C4F95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BF2D7287238D1C3C002C4F95 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		BF2D7290238D1C3D002C4F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2D7293238D1C3D002C4F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF2D7295238D1C3D002C4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C27C8E169CD581D6922B5156 /* Pods_practical6_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practical6_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07F695AC3F99FD6E7D357EC4 /* Pods_practical6_qrcode.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		563AA333FE31A88FC1887194 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				88C551ED2AD1BD58DA742145 /* Pods-practical6_qrcode.debug.xcconfig */,
+				0FCBCE1403F1F3B35BF25B9C /* Pods-practical6_qrcode.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5DFD8D3A855F8FB5E76F2402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C27C8E169CD581D6922B5156 /* Pods_practical6_qrcode.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF2D7279238D1C3C002C4F95 = {
 			isa = PBXGroup;
 			children = (
 				BF2D7284238D1C3C002C4F95 /* practical6_qrcode */,
 				BF2D7283238D1C3C002C4F95 /* Products */,
+				563AA333FE31A88FC1887194 /* Pods */,
+				5DFD8D3A855F8FB5E76F2402 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF2D7298238D1C3D002C4F95 /* Build configuration list for PBXNativeTarget "practical6_qrcode" */;
 			buildPhases = (
+				2BED8F1C1EEFF97B4FB7CAAA /* [CP] Check Pods Manifest.lock */,
 				BF2D727E238D1C3C002C4F95 /* Sources */,
 				BF2D727F238D1C3C002C4F95 /* Frameworks */,
 				BF2D7280238D1C3C002C4F95 /* Resources */,
+				FD03FBEEA4CF992906B67545 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -135,6 +162,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2BED8F1C1EEFF97B4FB7CAAA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-practical6_qrcode-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD03FBEEA4CF992906B67545 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practical6_qrcode/Pods-practical6_qrcode-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-practical6_qrcode/Pods-practical6_qrcode-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-practical6_qrcode/Pods-practical6_qrcode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BF2D727E238D1C3C002C4F95 /* Sources */ = {
@@ -286,6 +355,7 @@
 		};
 		BF2D7299238D1C3D002C4F95 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88C551ED2AD1BD58DA742145 /* Pods-practical6_qrcode.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +373,7 @@
 		};
 		BF2D729A238D1C3D002C4F95 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCBCE1403F1F3B35BF25B9C /* Pods-practical6_qrcode.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
