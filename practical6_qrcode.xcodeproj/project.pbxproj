@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		BF2D728F238D1C3C002C4F95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D728D238D1C3C002C4F95 /* Main.storyboard */; };
 		BF2D7291238D1C3D002C4F95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF2D7290238D1C3D002C4F95 /* Assets.xcassets */; };
 		BF2D7294238D1C3D002C4F95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF2D7292238D1C3D002C4F95 /* LaunchScreen.storyboard */; };
+		BF2D729C238D2811002C4F95 /* CodeScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2D729B238D2811002C4F95 /* CodeScanner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BF2D7290238D1C3D002C4F95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF2D7293238D1C3D002C4F95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF2D7295238D1C3D002C4F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF2D729B238D2811002C4F95 /* CodeScanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeScanner.swift; sourceTree = "<group>"; };
 		C27C8E169CD581D6922B5156 /* Pods_practical6_qrcode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_practical6_qrcode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				88C551ED2AD1BD58DA742145 /* Pods-practical6_qrcode.debug.xcconfig */,
 				0FCBCE1403F1F3B35BF25B9C /* Pods-practical6_qrcode.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +92,7 @@
 				BF2D7290238D1C3D002C4F95 /* Assets.xcassets */,
 				BF2D7292238D1C3D002C4F95 /* LaunchScreen.storyboard */,
 				BF2D7295238D1C3D002C4F95 /* Info.plist */,
+				BF2D729B238D2811002C4F95 /* CodeScanner.swift */,
 			);
 			path = practical6_qrcode;
 			sourceTree = "<group>";
@@ -210,6 +212,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF2D729C238D2811002C4F95 /* CodeScanner.swift in Sources */,
 				BF2D728C238D1C3C002C4F95 /* SecondViewController.swift in Sources */,
 				BF2D728A238D1C3C002C4F95 /* FirstViewController.swift in Sources */,
 				BF2D7286238D1C3C002C4F95 /* AppDelegate.swift in Sources */,
