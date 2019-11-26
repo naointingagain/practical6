@@ -40,6 +40,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <outlet property="delegate" destination="9pv-A4-QxB" id="fa1-Ly-Yex"/>
+                                </connections>
                             </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.85320191062176165" green="0.5448479312854928" blue="0.54649967354038209" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
